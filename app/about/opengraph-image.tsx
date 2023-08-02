@@ -6,9 +6,8 @@ import { getPosts } from "@/app/get-posts";
 import commaNumber from "comma-number";
 
 export default async function AboutOG() {
-  // rauchg photo
-  const rauchgPhoto = fetch(
-    new URL(`../../public/images/rauchg-3d4cecf.gray.jpg`, import.meta.url)
+  const abolPhoto = fetch(
+    new URL(`../../public/images/abol-gray.png`, import.meta.url)
   ).then(res => res.arrayBuffer());
 
   // fonts
@@ -50,7 +49,7 @@ export default async function AboutOG() {
                 tw="rounded-full h-74"
                 alt="Abolfazl Arab"
                 // @ts-ignore
-                src={await rauchgPhoto}
+                src={await abolPhoto}
               />
             </div>
 
