@@ -1,8 +1,12 @@
-import { Redis } from "@upstash/redis";
+import { Redis, RedisConfigNodejs } from "@upstash/redis";
 
-const redis = new Redis({
-  url: 'https://curious-wasp-37511.upstash.io',
-  token: process.env.UPSTASH_REDIS_REST_TOKEN,
-})
+const redisToken = process.env.UPSTASH_REDIS_REST_TOKEN ?? "";
+
+const redisConfig: RedisConfigNodejs = {
+  url: "https://curious-wasp-37511.upstash.io",
+  token: redisToken, 
+};
+
+const redis = new Redis(redisConfig);
 
 export default redis;

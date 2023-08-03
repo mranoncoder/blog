@@ -59,15 +59,13 @@ export default async function AboutOG() {
               </div>
               <div tw="flex mb-5" style={font("Roboto Mono 400")}>
                 <span tw="text-gray-400 mr-3">&mdash;</span> CEO and Founder of
-                Vercel
+                BotStation
               </div>
               <div tw="flex mb-5" style={font("Roboto Mono 400")}>
-                <span tw="text-gray-400 mr-3">&mdash;</span> Creator of Next.js,
-                Socket.IO, Mongoose
+                <span tw="text-gray-400 mr-3">&mdash;</span> Web3 Development Mentor
               </div>
               <div tw="flex" style={font("Roboto Mono 400")}>
-                <span tw="text-gray-400 mr-3">&mdash;</span> Lives in San
-                Francisco, CA
+                <span tw="text-gray-400 mr-3">&mdash;</span> Lives in Germany
               </div>
             </div>
           </div>
